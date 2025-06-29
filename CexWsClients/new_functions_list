@@ -1,0 +1,69 @@
+# Полный список функций для всех клиентов
+
+functions = [
+    # Инициализация
+    "__init__",
+    "close",
+    "__aenter__",
+    "__aexit__",
+
+    # Подключение
+    "connect_ws",  # вместо "connect"
+    "_sign_request",  # для клиентов с подписью
+
+    # Торговые операции
+    "place_limit_order",
+    "place_market_order",
+    "place_fok_order",  # специально для Hyperliquid
+    "close_limit_order",
+    "close_market_order",
+    "cancel_order",
+
+    # Управление ордерами
+    "subscribe_order",
+    "unsubscribe_order",
+    "get_order_status",
+
+    # Ордербук
+    "subscribe_orderbook",
+    "unsubscribe_orderbook",
+    "get_orderbook",  # для прямого получения
+
+    # Позиции и настройки
+    "get_position_info",
+    "get_position_size",
+    "set_leverage",
+
+    # Информация о рынке
+    "get_symbol_info",
+    "get_tick_size",
+    "get_funding_rate",
+
+    # Класс-методы (для некоторых клиентов)
+    "from_key"  # Hyperliquid
+]
+
+# Группировка по функциональности
+function_groups = {
+    "connection": ["__init__", "connect_ws", "close", "__aenter__", "__aexit__"],
+    "trading": ["place_limit_order", "place_market_order", "place_fok_order",
+                "close_limit_order", "close_market_order", "cancel_order"],
+    "orders": ["subscribe_order", "unsubscribe_order", "get_order_status"],
+    "orderbook": ["subscribe_orderbook", "unsubscribe_orderbook", "get_orderbook"],
+    "positions": ["get_position_info", "get_position_size", "set_leverage"],
+    "market_info": ["get_symbol_info", "get_tick_size", "get_funding_rate"],
+    "utils": ["_sign_request", "from_key"]
+}
+
+# Обязательные функции для всех клиентов
+required_functions = [
+    "__init__",
+    "connect_ws",
+    "place_limit_order",
+    "place_market_order",
+    "cancel_order",
+    "subscribe_order",
+    "get_position_info",
+    "set_leverage",
+    "close"
+]

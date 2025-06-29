@@ -1,0 +1,2 @@
+This directory contains descriptions of trading strategies, including working versions and the beginning stages of idea implementations.
+Директория для описания торговых стратегий, собраны рабочие варианты и начало реализаций идей.

@@ -1,0 +1,24 @@
+{
+  "api_keys": {
+    "binance": {
+      "api_key": "oQyjYl0STeQvXwLITnklJHAMHYS16wOW75KQRKAl2bDKI6TZk8jkomCf1uGxgPDT",
+      "api_secret": "canpdrLSnuc6lsd6idwxsyUyNL8TZtoTFdzAbpiroZfWi9YWrJ1KVTSbuvFyvdUd"
+    },
+    "hyperliquid": {
+      "api_key": "7fa3afc49143c460c251215828549cfd42f1fea67d0adfe9b2317aec666f6678"
+    }
+  },
+  "scalp_parameters": {
+    "base_quantity": 0.1,
+    "target_profit_usd": 50.0,
+    "max_position_size": 2.0,
+    "min_quantity": 0.01,
+    "min_profit_per_unit": 0.5
+  },
+  "risk_management": {
+    "max_daily_loss": 25.0,
+    "max_consecutive_losses": 3,
+    "stop_on_large_loss": true,
+    "large_loss_threshold": 10.0
+  }
+}

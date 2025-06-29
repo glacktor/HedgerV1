@@ -1,0 +1,60 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm project files
+.idea/
+
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Package distribution
+dist/
+build/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.pid
+*.seed
+*.swp
+*~
+*.bak
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.cache
+nosetests.xml
+pytest_cache/
+
+# Local configuration files
+.env
+*.local
+config.ini
+secrets.yaml
+config.json
+# Database or other large files
+*.sql
+*.sqlite3
+*.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Other miscellaneous
+*.bak
+*.swp
+*.swo
+*.swn
