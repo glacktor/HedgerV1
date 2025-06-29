@@ -1,8 +1,6 @@
-The aim of the project is to build a stable, manageable trading system that can be used for most speculative strategies in traditional financial markets. Целью проекта является построение стабильной управляемой торговой системы, которая может быть использована для большинства спекулятивных идей на традиционных финансовых рынках.
+The aim of the project is to build a stable, manageable trading system that can be used for most speculative strategies in traditional financial markets. 
 
-The separation of trading methods and the typification of the data returned from exchanges allow for easy integration of new trading platforms or modification/adding of new trading strategies. Additionally, the centralized database with connected sockets acts as a mirror of the exchanges' databases, ensuring minimal possible latency. This solution enables efficient data collection and storage, regardless of the scale. Обособленность торговых методов и типизация возвращаемых данных от бирж позволяет просто интегрировать новые торговые платформы или модифицировать/добавлять новые торговые методы, а централизованная база данных с подключенными сокетами работает как зеркало баз данных бирж, с минимально возможной задержкой. Такое решение позволяет просто собирать и хранить данные, любых масштабов.
-
+The separation of trading methods and the typification of the data returned from exchanges allow for easy integration of new trading platforms or modification/adding of new trading strategies. Additionally, the centralized database with connected sockets acts as a mirror of the exchanges' databases, ensuring minimal possible latency. This solution enables efficient data collection and storage, regardless of the scale.
 Note: This Python implementation serves as a foundation for architecture validation. For high-frequency trading scenarios, the system is designed to be easily portable to C++/Rust for optimal performance.
 
-Примечание: Данная реализация на Python служит основой для валидации архитектуры. Для высокочастотной торговли система спроектирована для простого портирования на C++/Rust для оптимальной производительности.
 architecture.png == architecture.md
